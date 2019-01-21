@@ -1,0 +1,5 @@
+1-El archivo devolucion,escalar y operador-fusion-null, "seguro te los topas" 
+2-LO QUE CASI NUNCA USARAS: Operador nave espacial
+3-Lo que SEGURO te topas, constructor,constructor2 y metodos-cadena
+
+Aprender a ir quitando los echos de las funciones y metodos.
