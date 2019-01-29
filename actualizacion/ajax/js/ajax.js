@@ -4,7 +4,9 @@ var loader = document.getElementById('loader');
 btn.addEventListener('click',function() {
 	var peticion = new XMLHttpRequest();
 	//direccion del archivo al que queremos acceder, que seria el encargado de traer usuarios de la BD y devolverlo al archivo Javascript
-	peticion.open('GET','http://www.json-generator.com/api/json/get/bVZqYvCphK?indent=2');
+	//peticion.open('GET','http://www.json-generator.com/api/json/get/bVZqYvCphK?indent=2');
+	peticion.open('GET','php/usuarios.php');
+
 	//Poniendo la bolita que carga de CSS
 	loader.classList.add('active');
 
